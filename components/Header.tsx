@@ -3,15 +3,16 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-gray-800/80 backdrop-blur-sm border-b border-gray-700 sticky top-0 z-10">
+    <header className="bg-slate-800/80 backdrop-blur-sm border-b border-slate-700 sticky top-0 z-10">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <svg
-            className="w-8 h-8 text-cyan-400"
+            className="w-8 h-8 text-sky-400"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <path
               strokeLinecap="round"
@@ -26,7 +27,7 @@ const Header: React.FC = () => {
           href="https://vercel.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200"
+          className="text-sm font-medium text-slate-300 hover:text-white transition-colors duration-200"
         >
           Hecho para Vercel
         </a>
