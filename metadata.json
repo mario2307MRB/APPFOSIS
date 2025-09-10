@@ -1,0 +1,5 @@
+{
+  "name": "Vercel Deployment Test",
+  "description": "A simple and visually appealing React application designed to test deployment on the Vercel platform. It features a clean UI with a basic counter to demonstrate state management.",
+  "requestFramePermissions": []
+}
